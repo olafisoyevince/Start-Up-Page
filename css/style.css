@@ -20,7 +20,7 @@ ul li a{
   font-size: 14px;
   color: white; 
   padding-left: 20px;
-  transition: all 2s;
+  transition: all 1s;
 }
 
 ul li a:hover{
@@ -51,6 +51,12 @@ ul li a:hover{
   .breadth{
     width: 42%;
   }
+  .space-up{
+    padding-top: 30px;
+  }
+  .space-down{
+    padding-bottom: 30px;
+  }
 }
 @media only screen and (max-device-width : 500px) {
   .breadth{
@@ -61,6 +67,9 @@ ul li a:hover{
   }
   .space-down{
     padding-bottom: 30px;
+  }
+  ul li a{
+    padding-left: 7px;
   }
 }
 @media only screen and (max-device-width : 375px) {
