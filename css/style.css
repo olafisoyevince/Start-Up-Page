@@ -41,10 +41,17 @@ ul li a:hover{
   padding: 2.5rem 0;
 }
 
+.space-up{
+  padding-top: 30px;
+}
+
 
 @media only screen and (max-device-width: 1024px){
   .breadth{
     width: 32%;
+  }
+  .space-up{
+    padding-top: 30px;
   }
 }
 @media only screen and (max-device-width: 768px){
@@ -62,6 +69,9 @@ ul li a:hover{
   .breadth{
     width: 23%;
   }
+  .space-upp{
+    padding-top: 30px;
+  }
   .space-up{
     padding-top: 30px;
   }
@@ -76,10 +86,16 @@ ul li a:hover{
   .breadth{
     width: 27%;
   }
+  ul li a{
+    padding-left: 0px;
+  }
 }
 @media only screen and (max-device-width : 320px) {
   .breadth{
     width: 32%;
+  }
+  ul li a{
+    padding-left: 0px;
   }
 }
 
