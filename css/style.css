@@ -4,48 +4,23 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-
 .background{
   background-color: #3b065e;
 }
-
-ul li{
-  list-style: none;
-  display: inline-block;
-  
-}
-
-ul li a{
-  text-decoration: none;
-  font-size: 14px;
-  color: white; 
-  padding-left: 20px;
-  transition: all 1s;
-}
-
-ul li a:hover{
-  color: aqua;
-}
-
 .marg{
   width: 30%;
 }
-
 .breadth{
   width: 23%;
   padding: 20px;
   margin: auto;
 }
-
 .pad-top{
   padding: 2.5rem 0;
 }
-
 .space-up{
   padding-top: 30px;
 }
-
-
 @media only screen and (max-device-width: 1024px){
   .breadth{
     width: 32%;
@@ -78,27 +53,14 @@ ul li a:hover{
   .space-down{
     padding-bottom: 30px;
   }
-  ul li a{
-    padding-left: 7px;
-  }
 }
 @media only screen and (max-device-width : 375px) {
   .breadth{
     width: 27%;
-  }
-  ul li a{
-    padding-left: 0px;
   }
 }
 @media only screen and (max-device-width : 320px) {
   .breadth{
     width: 32%;
   }
-  ul li a{
-    padding-left: 0px;
-  }
 }
-
-
-
-
